@@ -1,0 +1,13 @@
+pragma solidity ^0.4.5;
+
+contract Asq{
+   
+    uint result;
+    //this function is used to multiply two numbers.
+
+        function araeofSquare(uint _firstvalue , uint _secondvalue) public view returns (uint) {
+  
+         result = _firstvalue * _firstvalue;
+        return result;
+    }
+}
